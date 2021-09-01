@@ -1,0 +1,198 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.logo-navbar{
+    margin-right: 20px;
+}
+
+.navbar1{
+    background-color: #CCCCCC;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #000000; 
+}
+
+.btn-nav {
+    color: #000000;
+}
+
+    .btn-nav:hover {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+.btn-logout {
+    color: #000000;
+    border: none;  
+    height: 50px;
+}
+
+    .btn-logout:hover {
+        background-color: #ED5F66;
+        color: #000000;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+/*CONTENEDORES*/
+
+
+.contenedorLogin {
+    border-radius: 10px;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.2);
+    min-height: 10rem;
+    margin: auto;
+    max-width: 50%;
+    padding: 5rem;
+    background-color: #fff;
+}
+
+.contenedor {
+    border-radius: 10px;
+    min-height: 10rem;
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+    padding: 5rem;
+    background-color: #fff;
+}
+
+/*BOTONES */
+.btn1 {
+    background-color: #385399;
+    border: none;
+    color: white;
+    height: 50px;
+}
+
+    .btn1:hover {
+        background-color: #23408E;
+    }
+
+.btn2 {
+    background-color: #33CC66;
+    border: none;
+    color: white;
+    height: 50px;
+}
+
+    .btn2:hover {
+        background-color: #33CC33;
+    }
+
+.btn3 {
+    background-color: #ED5F66;
+    border: none;
+    color: white;
+    height: 50px;
+}
+
+    .btn3:hover {
+        background-color: #ED1B24;
+    }
+
+/*ESTILOS GRIDVIEW*/
+
+.mydatagrid {
+    width: 100%;
+    border: none;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #385399;
+    font-family: Arial;
+    color: White;
+    border: none;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    min-height: 25px;
+    text-align: left;
+}
+
+    .rows:hover {
+        background-color: #CCCCCC;
+    }
+
+.selectedrow {
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid a {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mydatagrid span {
+    background-color: #c9c9c9;
+    color: #FFF;
+    padding: 5px 5px 5px 5px;
+    border: none;
+}
+
+.pager {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+    border: none;
+}
+
+.mydatagrid th {
+    padding: 5px;
+    border: none;
+}
+
+#headerGridView{
+    padding: 50px;
+}
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
